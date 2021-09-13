@@ -1,7 +1,45 @@
 h1 {
     font-family: 'Allison', cursive;
+    font-size: 60px;
 }
 
 nav { background-color:lightgrey;
         height:50px;    
 }
+
+.menu-item {
+    display:inline-block;
+    width:150px;
+    height:30px;
+    vertical-align: middle;
+    text-align: center;
+    background-color:rgb(3, 59, 3);
+    color:white;
+    padding-top:20px;
+
+}
+
+.sidebar {
+    width:20%;
+    background-color: lightgreen;
+    float:left;
+    height:1000px;
+    padding: 2%;
+}
+.pet-name img {
+    width:150px;
+
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+
+.main-content {
+width: 60%;
+float: left;
+padding:2%;
+}
+
+
